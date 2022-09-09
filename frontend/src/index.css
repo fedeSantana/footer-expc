@@ -203,6 +203,7 @@
   display: flex;
 }
 
+/* Celulares */
 @media (max-width: 640px) {
   .footer-container {
     flex-direction: column;
@@ -223,6 +224,11 @@
 
   .Footer-Logo {
     margin: 0 0 24px 0;
+  }
+
+  .ExpCFooter {
+    background-image: none;
+    background: #FAFAFB;
   }
 
 }
