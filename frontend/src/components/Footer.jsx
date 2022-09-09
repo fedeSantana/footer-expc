@@ -14,7 +14,7 @@ export default function Footer({ dataSecciones, socialNetworks }) {
           </div>
           <div className="footer-sections">
             <div className="footer-section podcasts">
-              <p className="footer-titulo titulo-secciones">Secciones</p>
+              <p className="footer-titulo">Secciones</p>
               {dataSecciones.map((section) => (
                 <a key={section.label} href={section.link}>
                   {section.label}
@@ -22,7 +22,7 @@ export default function Footer({ dataSecciones, socialNetworks }) {
               ))}
             </div>
             <div className="footer-section podcasts">
-              <p className="footer-titulo titulo-secciones">Redes Sociales</p>
+              <p className="footer-titulo">Redes Sociales</p>
                 {socialNetworks.map((socialElement) => (
                   <a key={socialElement.alt} href={socialElement.href}>
                       {socialElement.name}

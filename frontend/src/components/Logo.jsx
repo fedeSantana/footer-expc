@@ -1,6 +1,7 @@
 function Logo() {
   return (
     <svg 
+      className="Footer-Logo"
       width="94"
       height="36"
       viewBox="0 0 94 36"

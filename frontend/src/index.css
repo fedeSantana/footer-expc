@@ -39,6 +39,10 @@
   color: var(--clr-bg-black);
 }
 
+.Footer-Logo {
+  margin: 0 24px 0 0;
+}
+
 .expC-Footer .SectionsContainer {
   max-width: 60%;
   margin: 0 auto;
@@ -47,6 +51,7 @@
 /* container padding */
 .expC-Footer .container {
   display: flex;
+  justify-content: space-between;
 }
 
 
@@ -161,7 +166,7 @@
 }
 
 .expC-Footer .footer-titulo {
-  font-size: var(--fs-5);
+  font-size: var(--fs-5) !important;
   font-weight: 700;
   margin: 0;
   margin-bottom: 0.5rem;
@@ -214,6 +219,10 @@
 
   .flexEnd {
     align-self: flex-start;
+  }
+
+  .Footer-Logo {
+    margin: 0 0 24px 0;
   }
 
 }
